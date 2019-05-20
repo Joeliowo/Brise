@@ -1,0 +1,19 @@
+[
+{
+  "modid": "brise",
+  "name": "KAGIC: Brisé",
+  "description": "Rhodonite and Joel's KAGIC addon that does some cool stuff.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Rhodonite (0Q0), Peridot5XG (Joel)"],
+  "credits": "Keane - Comby Textures
+  Pezzottaite - Pezzottaite Textures (Gem belongs to this boi).",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [
+  	"kagic"
+  ]
+}
+]

@@ -1,0 +1,24 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "brise:summon",
+    "textures": {
+      "top": "brise:blocks/summoner_base",
+      "bottom": "brise:blocks/summoner_bottom",
+      "side": "brise:blocks/summoner_side",
+      "pink": "brise:blocks/summoner_pink",
+      "white": "brise:blocks/summoner_white",
+      "blue": "brise:blocks/summoner_blue",
+      "yellow": "brise:blocks/summoner_yellow",
+      "particle": "brise:blocks/summoner_base"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "brise:summon"
+    },
+    "inventory": {
+      "model": "brise:summon"
+    }
+  }
+}

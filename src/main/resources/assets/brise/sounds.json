@@ -1,0 +1,396 @@
+{
+  "entities.jade.hurt": {
+    "sounds": [
+      {
+        "name": "brise:entities/jade/hurt1"
+      },
+      {
+        "name": "brise:entities/jade/hurt2"
+      },
+      {
+        "name": "brise:entities/jade/hurt3"
+      },
+      {
+        "name": "brise:entities/jade/hurt4"
+      }
+    ]
+  },
+  "entities.jade.obey": {
+    "sounds": [
+      {
+        "name": "brise:entities/jade/obey1"
+      },
+      {
+        "name": "brise:entities/jade/obey2"
+      },
+      {
+        "name": "brise:entities/jade/obey3"
+      },
+      {
+        "name": "brise:entities/jade/obey4"
+      },
+      {
+        "name": "brise:entities/jade/obey5"
+      },
+      {
+        "name": "brise:entities/jade/obey6"
+      },
+      {
+        "name": "brise:entities/jade/obey7"
+      }
+    ]
+  },
+  "entities.jade.death": {
+    "sounds": [
+      {
+        "name": "brise:entities/jade/death1"
+      },
+      {
+        "name": "brise:entities/jade/death2"
+      },
+      {
+        "name": "brise:entities/jade/death3"
+      },
+      {
+        "name": "brise:entities/jade/death4"
+      },
+      {
+        "name": "brise:entities/jade/death5"
+      }
+    ]
+  },
+  "entities.jade.intro": {
+    "sounds": [
+      {
+        "name": "brise:entities/jade/intro"
+      }
+    ]
+  },
+   "entities.fluorite.hurt": {
+    "sounds": [
+      {
+        "name": "brise:entities/fluorite/hurt1"
+      },
+      {
+        "name": "brise:entities/fluorite/hurt2"
+      },
+      {
+        "name": "brise:entities/fluorite/hurt3"
+      },
+      {
+        "name": "brise:entities/fluorite/hurt4"
+      }
+    ]
+  },
+  "entities.fluorite.obey": {
+    "sounds": [
+      {
+        "name": "brise:entities/fluorite/obey1"
+      },
+      {
+        "name": "brise:entities/fluorite/obey2"
+      },
+      {
+        "name": "brise:entities/fluorite/obey3"
+      },
+      {
+        "name": "brise:entities/fluorite/obey4"
+      },
+      {
+        "name": "brise:entities/fluorite/obey5"
+      }
+    ]
+  },
+  "entities.fluorite.death": {
+    "sounds": [
+      {
+        "name": "brise:entities/fluorite/death1"
+      },
+      {
+        "name": "brise:entities/fluorite/death2"
+      },
+      {
+        "name": "brise:entities/fluorite/death3"
+      }
+    ]
+  },
+  "entities.sardonyx.hurt": {
+    "sounds": [
+      {
+        "name": "brise:entities/sardonyx/hurt1"
+      },
+      {
+        "name": "brise:entities/sardonyx/hurt2"
+      },
+      {
+        "name": "brise:entities/sardonyx/hurt3"
+      },
+      {
+        "name": "brise:entities/sardonyx/hurt4"
+      },
+      {
+        "name": "brise:entities/sardonyx/hurt5"
+      }
+    ]
+  },
+  "entities.sardonyx.obey": {
+    "sounds": [
+      {
+        "name": "brise:entities/sardonyx/obey1"
+      },
+      {
+        "name": "brise:entities/sardonyx/obey2"
+      },
+      {
+        "name": "brise:entities/sardonyx/obey3"
+      },
+      {
+        "name": "brise:entities/sardonyx/obey4"
+      },
+      {
+        "name": "brise:entities/sardonyx/obey5"
+      }
+    ]
+  },
+  "entities.sardonyx.death": {
+    "sounds": [
+      {
+        "name": "brise:entities/sardonyx/death1"
+      },
+      {
+        "name": "brise:entities/sardonyx/death2"
+      },
+      {
+        "name": "brise:entities/sardonyx/death3"
+      },
+      {
+        "name": "brise:entities/sardonyx/death4"
+      },
+      {
+        "name": "brise:entities/sardonyx/death5"
+      }
+    ]
+  },
+  "entities.pezz.death": {
+    "sounds": [
+      {
+        "name": "brise:entities/pezz/death1"
+      },
+      {
+        "name": "brise:entities/pezz/death2"
+      },
+      {
+        "name": "brise:entities/pezz/death3"
+      }
+    ]
+  },
+  "entities.pezz.hurt": {
+    "sounds": [
+      {
+        "name": "brise:entities/pezz/hurt1"
+      },
+      {
+        "name": "brise:entities/pezz/hurt2"
+      },
+      {
+        "name": "brise:entities/pezz/hurt3"
+      },
+      {
+        "name": "brise:entities/pezz/hurt4"
+      }
+    ]
+  },
+  "entities.pezz.obey": {
+    "sounds": [
+      {
+        "name": "brise:entities/pezz/obey1"
+      },
+      {
+        "name": "brise:entities/pezz/obey2"
+      },
+      {
+        "name": "brise:entities/pezz/obey3"
+      },
+      {
+        "name": "brise:entities/pezz/obey4"
+      },
+      {
+        "name": "brise:entities/pezz/obey5"
+      },
+      {
+        "name": "brise:entities/pezz/obey6"
+      }
+    ]
+  },
+  "entities.pezz.living": {
+    "sounds": [
+      {
+        "name": "brise:entities/pezz/living1"
+      }
+    ]
+  },
+  "entities.white_herk.shield": {
+    "sounds": [
+      {
+        "name": "brise:entities/white_herk/shield"
+      }
+    ]
+  },
+  "entities.white_herk.hurt": {
+    "sounds": [
+      {
+        "name": "brise:entities/white_herk/hurt1"
+      },
+      {
+        "name": "brise:entities/white_herk/hurt2"
+      },
+      {
+        "name": "brise:entities/white_herk/hurt3"
+      }
+    ]
+  },
+  "entities.white_herk.convertspeech": {
+    "sounds": [
+      {
+        "name": "brise:entities/white_herk/convertspeech"
+      }
+    ]
+   },
+  "entities.white_herk.convertsound": {
+    "sounds": [
+      {
+        "name": "brise:entities/white_herk/convertsound"
+      }
+    ]
+  },
+  "entities.white_herk.living": {
+    "sounds": [
+      {
+        "name": "brise:entities/white_herk/living1"
+      }
+    ]
+  },
+  "entities.bixbite.death": {
+    "sounds": [
+      {
+        "name": "brise:entities/bixbite/death1"
+      },
+      {
+        "name": "brise:entities/bixbite/death2"
+      },
+      {
+        "name": "brise:entities/bixbite/death3"
+      },
+      {
+        "name": "brise:entities/bixbite/death4"
+      }
+    ]
+  },
+  "entities.bixbite.hurt": {
+    "sounds": [
+      {
+        "name": "brise:entities/bixbite/hurt1"
+      },
+      {
+        "name": "brise:entities/bixbite/hurt2"
+      },
+      {
+        "name": "brise:entities/bixbite/hurt3"
+      }
+    ]
+  },
+  "entities.bixbite.obey": {
+    "sounds": [
+      {
+        "name": "brise:entities/bixbite/obey1"
+      },
+      {
+        "name": "brise:entities/bixbite/obey2"
+      },
+      {
+        "name": "brise:entities/bixbite/obey3"
+      },
+      {
+        "name": "brise:entities/bixbite/obey4"
+      },
+      {
+        "name": "brise:entities/bixbite/obey5"
+      }
+    ]
+  },
+  "entities.bixbite.living": {
+    "sounds": [
+      {
+        "name": "brise:entities/bixbite/living1"
+      },
+      {
+        "name": "brise:entities/bixbite/living2"
+      },
+      {
+        "name": "brise:entities/bixbite/living3"
+      }
+    ]
+  },
+  "entities.bixbite.lava": {
+    "sounds": [
+      {
+        "name": "brise:entities/bixbite/lava"
+      }
+    ]
+  },
+  "entities.pebble.hurt": {
+    "sounds": [
+      {
+        "name": "brise:entities/pebble/hurt1"
+      },
+      {
+        "name": "brise:entities/pebble/hurt2"
+      },
+      {
+        "name": "brise:entities/pebble/hurt3"
+      },
+      {
+        "name": "brise:entities/pebble/hurt4"
+      }
+    ]
+  },
+  "entities.pebble.obey": {
+    "sounds": [
+      {
+        "name": "brise:entities/pebble/obey1"
+      },
+      {
+        "name": "brise:entities/pebble/obey2"
+      },
+      {
+        "name": "brise:entities/pebble/obey3"
+      },
+      {
+        "name": "brise:entities/pebble/obey4"
+      }
+    ]
+  },
+  "entities.pebble.death": {
+    "sounds": [
+      {
+        "name": "brise:entities/pebble/death1"
+      },
+	   {
+        "name": "brise:entities/pebble/death2"
+      },
+	   {
+        "name": "brise:entities/pebble/death3"
+      },
+      {
+        "name": "brise:entities/pebble/death4"
+      }
+    ]
+  },
+  "entities.pebble.paper": {
+    "sounds": [
+      {
+        "name": "brise:entities/pebble/paper"
+      }
+    ]
+  }
+}

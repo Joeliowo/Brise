@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:cube",
+    "textures": {
+      "north": "brise:blocks/dis_sides",
+      "south": "brise:blocks/dis_sides",
+      "east": "brise:blocks/dis_sides",
+      "west": "brise:blocks/dis_sides",
+      "up": "brise:blocks/dis_top",
+      "down": "brise:blocks/dis_bottom",
+      "particle": "brise:blocks/dis_sides"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "minecraft:cube"
+    },
+    "inventory": {
+      "model": "minecraft:cube"
+    }
+  }
+}

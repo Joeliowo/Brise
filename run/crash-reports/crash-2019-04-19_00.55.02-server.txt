@@ -1,0 +1,110 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 4/19/19 12:55 AM
+Description: Ticking entity
+
+java.lang.IllegalArgumentException: fromIndex(10) > toIndex(1)
+	at java.util.ArrayList.subListRangeCheck(ArrayList.java:1014)
+	at java.util.ArrayList.subList(ArrayList.java:1004)
+	at com.rhodojoel.brise.gem.boss.EntityWhiteHerk.startPossessingLikeAGiantWoman(EntityWhiteHerk.java:111)
+	at com.rhodojoel.brise.gem.boss.EntityWhiteHerk.onLivingUpdate(EntityWhiteHerk.java:100)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2396)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:346)
+	at mod.akrivus.kagic.entity.EntityGem.onUpdate(EntityGem.java:584)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2168)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:871)
+	at net.minecraft.world.World.updateEntity(World.java:2127)
+	at net.minecraft.world.World.updateEntities(World.java:1928)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.util.ArrayList.subListRangeCheck(ArrayList.java:1014)
+	at java.util.ArrayList.subList(ArrayList.java:1004)
+	at com.rhodojoel.brise.gem.boss.EntityWhiteHerk.startPossessingLikeAGiantWoman(EntityWhiteHerk.java:111)
+	at com.rhodojoel.brise.gem.boss.EntityWhiteHerk.onLivingUpdate(EntityWhiteHerk.java:100)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2396)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:346)
+	at mod.akrivus.kagic.entity.EntityGem.onUpdate(EntityGem.java:584)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2168)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:871)
+	at net.minecraft.world.World.updateEntity(World.java:2127)
+
+-- Entity being ticked --
+Details:
+	Entity Type: brise:white_herk (com.rhodojoel.brise.gem.boss.EntityWhiteHerk)
+	Entity ID: 58
+	Entity Name: White Herkimer Diamond
+	Entity's Exact location: -66.67, 67.00, -71.15
+	Entity's Block location: World: (-67,67,-72), Chunk: (at 13,4,8 in -5,-5; contains blocks -80,0,-80 to -65,255,-65), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1928)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+
+-- Affected level --
+Details:
+	Level name: owuwo
+	All players: 1 total; [EntityPlayerMP['Player586'/346, l='owuwo', x=70.75, y=66.50, z=221.57]]
+	Chunk stats: ServerChunkCache: 706 Drop: 0
+	Level seed: 5269486780433164242
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (8,64,8), Chunk: (at 8,4,8 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 47885 game time, 47885 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 104884 (now: false), thunder time: 10146 (now: true)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 640234368 bytes (610 MB) / 1700790272 bytes (1622 MB) up to 3564634112 bytes (3399 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.4.2705 11 mods loaded, 11 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID             | Version      | Source                                        | Signature                                |
+	|:--------- |:-------------- |:------------ |:--------------------------------------------- |:---------------------------------------- |
+	| UCHIJAAAA | minecraft      | 1.12.2       | minecraft.jar                                 | None                                     |
+	| UCHIJAAAA | mcp            | 9.42         | minecraft.jar                                 | None                                     |
+	| UCHIJAAAA | FML            | 8.0.99.99    | forgeSrc-1.12.2-14.23.4.2705.jar              | None                                     |
+	| UCHIJAAAA | forge          | 14.23.4.2705 | forgeSrc-1.12.2-14.23.4.2705.jar              | None                                     |
+	| UCHIJAAAA | kagic          | X11p13       | kagic-X11p13-dev.jar                          | None                                     |
+	| UCHIJAAAA | amalgam        | 1.0          | amalgam-1.0n11-deobf.jar                      | None                                     |
+	| UCHIJAAAA | codechickenlib | 3.1.6.339    | CodeChickenLib-1.12.2-3.1.6.339-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| UCHIJAAAA | jei            | 4.9.1.170    | jei_1.12.2-4.9.1.170.jar                      | None                                     |
+	| UCHIJAAAA | mikeaddon      | @version     | mikeaddon-2.6-deobf.jar                       | None                                     |
+	| UCHIJAAAA | orbitredux     | 1.5.5        | orbitredux-1.5.5-deobf.jar                    | None                                     |
+	| UCHIJAAAA | brise          | @version     | brise-1.0.jar                                 | None                                     |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player586'/346, l='owuwo', x=70.75, y=66.50, z=221.57]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

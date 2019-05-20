@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:cube",
+    "textures": {
+      "north": "brise:blocks/exitblocktemp",
+      "south": "brise:blocks/exitblocktemp",
+      "east": "brise:blocks/exitblocktemp",
+      "west": "brise:blocks/exitblocktemp",
+      "up": "brise:blocks/exitblocktemp",
+      "down": "brise:blocks/exitblocktemp",
+      "particle": "brise:blocks/exitblocktemp"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "minecraft:cube"
+    },
+    "inventory": {
+      "model": "minecraft:cube"
+    }
+  }
+}
