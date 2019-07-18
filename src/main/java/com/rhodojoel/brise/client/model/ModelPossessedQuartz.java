@@ -52,7 +52,7 @@ public class ModelPossessedQuartz extends ModelGem {
         this.setRotateAngle(arm1pt1, 0.0F, 0.0F, 1.0471975511965976F);
         this.hair = new ModelRenderer(this, 32, 0);
         this.hair.setRotationPoint(-4.5F, -12.5F, -4.5F);
-        this.hair.addBox(0.0F, 0.0F, 0.0F, 8, 8, 8, 1.2F);
+        this.hair.addBox(0.0F, 0.0F, 0.0F, 8, 8, 8, 1.1F);
         this.shape9 = new ModelRenderer(this, 48, 52);
         this.shape9.setRotationPoint(0.0F, 8.0F, 0.0F);
         this.shape9.addBox(0.0F, 0.0F, 0.0F, 4, 8, 4, 0.0F);

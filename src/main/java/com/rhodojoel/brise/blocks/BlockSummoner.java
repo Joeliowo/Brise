@@ -72,11 +72,7 @@ public class BlockSummoner extends Block {
                 else if(block.getBlock() == Blocks.LAPIS_BLOCK){
                     if(item.getItem().getItem() == BriseItems.PINK_GEM){
                         item1 = true;
-                    }
-                    if(true){
                         item2 = true;
-                    }
-                    if(true){
                         item3 = true;
                     }
                     herk = "blue";
@@ -84,23 +80,15 @@ public class BlockSummoner extends Block {
                 else if(block.getBlock() == Blocks.GOLD_ORE){
                     if(item.getItem().getItem() == BriseItems.BLUE_GEM){
                         item1 = true;
-                    }
-                    if(item.getItem().getItem() == BriseItems.PINK_GEM){
                         item2 = true;
-                    }
-                    if(true){
                         item3 = true;
                     }
                     herk = "yellow";
                 }
                 else if(block.getBlock() == Blocks.IRON_BLOCK){
-                    if(item.getItem().getItem() == BriseItems.PINK_GEM){
-                        item1 = true;
-                    }
-                    if(item.getItem().getItem() == BriseItems.BLUE_GEM){
-                        item2 = true;
-                    }
                     if(item.getItem().getItem() == BriseItems.YELLOW_GEM){
+                        item1 = true;
+                        item2 = true;
                         item3 = true;
                     }
                     herk = "white";
@@ -135,6 +123,11 @@ public class BlockSummoner extends Block {
                 pink.setItem(new ItemStack(BriseItems.WHITE_HERK_GEM));
                 worldIn.spawnEntity(pink);
             }
+            item1 = false;
+            item2 = false;
+            item3 = false;
+            herk = "";
+            list.clear();
         }
         return true;
     }
